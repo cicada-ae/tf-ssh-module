@@ -4,7 +4,7 @@ terraform {
       source = "hetznercloud/hcloud"
       version = "~> 1.45"
       configuration_aliases = [
-        hetznercloud
+        hcloud
       ]
     }
   }
